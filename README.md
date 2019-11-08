@@ -29,7 +29,4 @@ Main features and requirements:
 
 13. Admin page (only for authorized users):
 
-14. Add, edit, remove products;
-  14.1 Enable/Disable comments for a product;
-  14.2 Add, remove comments moderators;
-  14.3 Add, remove admin users;
+14. Add, edit, remove products. Enable/Disable comments for a product. Add, remove comments moderators. Add, remove admin users;
