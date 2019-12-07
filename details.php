@@ -10,8 +10,8 @@ include("functions/functions.php");
 ?>
 
 <?php 
-
-if(isset($_GET['pro_id'])){
+    if(isset($_SESSION['customer_email']))
+    {
     
     $product_id = $_GET['pro_id'];
     
@@ -26,7 +26,7 @@ if(isset($_GET['pro_id'])){
     $pro_title = $row_products['product_title'];
     
     $pro_price = $row_products['product_price'];
-    
+
     $pro_desc = $row_products['product_desc'];
     
     $pro_img1 = $row_products['product_img1'];
@@ -34,7 +34,7 @@ if(isset($_GET['pro_id'])){
     $pro_img2 = $row_products['product_img2'];
     
     $pro_img3 = $row_products['product_img3'];
-
+    
     $get_p_cat = "select * from product_categories where p_cat_id='$p_cat_id'";
     
     $run_p_cat = mysqli_query($con,$get_p_cat);
@@ -42,8 +42,7 @@ if(isset($_GET['pro_id'])){
     $row_p_cat = mysqli_fetch_array($run_p_cat);
     
     $p_cat_title = $row_p_cat['p_cat_title'];
-    
-}
+    }
 
 ?>
 
@@ -52,8 +51,7 @@ if(isset($_GET['pro_id'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Horondi</title>
-    <link rel="icon" href="images/ico.png">
+    <title>M-Dev Store</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -136,8 +134,8 @@ if(isset($_GET['pro_id'])){
                
                <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/logo.png" alt="Horondi Logo" class="hidden-xs">
-                   <img src="images/logo-mobile.png" alt="Horondi Logo Mobile" class="visible-xs">
+                   <img src="images/ecom-store-logo.png" alt="M-dev-Store Logo" class="hidden-xs">
+                   <img src="images/ecom-store-logo-mobile.png" alt="M-dev-Store Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                
@@ -305,6 +303,8 @@ if(isset($_GET['pro_id'])){
                            </div><!-- carousel slide Finish -->
                        </div><!-- mainImage Finish -->
 
+                    
+
                    </div><!-- col-sm-6 Finish -->
                    
                    <div class="col-sm-6"><!-- col-sm-6 Begin -->
@@ -328,7 +328,21 @@ if(isset($_GET['pro_id'])){
                                    
                                     </div><!-- col-md-7 Finish -->
                                    
-                               </div><!-- form-group Finish -->                            
+                               </div><!-- form-group Finish -->
+                               
+                               <?php 
+                               
+                                        echo "
+
+                                            <p class='price'>
+
+                                            PRICE: $ $pro_price
+
+                                            </p>
+
+                                        ";
+                               
+                               ?>
                                
                                <p class="text-center buttons"><button class="btn btn-primary i fa fa-shopping-cart"> Add to cart</button></p>
                                
@@ -372,9 +386,95 @@ if(isset($_GET['pro_id'])){
                        <?php echo $pro_desc; ?>
                        
                    </p>
+
                        <hr>
                    
                </div><!-- box Finish -->
+               
+               <div id="row same-heigh-row"><!-- #row same-heigh-row Begin -->
+                   <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Begin -->
+                       <div class="box same-height headline"><!-- box same-height headline Begin -->
+                           <h3 class="text-center">Products You Maybe Like</h3>
+                       </div><!-- box same-height headline Finish -->
+                   </div><!-- col-md-3 col-sm-6 Finish -->
+                   
+                   <?php 
+                   
+                    $get_products = "select * from products order by rand() LIMIT 0,3";
+                   
+                    $run_products = mysqli_query($con,$get_products);
+                   
+                   while($row_products=mysqli_fetch_array($run_products)){
+                       
+                    $pro_id = $row_products['product_id'];
+        
+                    $pro_title = $row_products['product_title'];
+                    
+                    $pro_price = $row_products['product_price'];
+                    
+                    $pro_img1 = $row_products['product_img1'];
+                    
+                    $product_price = "  $ $pro_price  ";
+                    
+                    echo "
+                    
+                    <div class='col-md-3 col-sm-6 center-responsive'>
+                    
+                        <div class='product'>
+                        
+                            <a href='details.php?pro_id=$pro_id'>
+                            
+                                <img class='img-responsive' src='admin_area/product_images/$pro_img1'>
+                            
+                            </a>
+                            
+                            <div class='text'>
+            
+                                <h3>
+                        
+                                    <a href='details.php?pro_id=$pro_id'>
+            
+                                        $pro_title
+            
+                                    </a>
+                                
+                                </h3>
+                                
+                                <p class='price'>
+                                
+                                $product_price
+                                
+                                </p>
+                                
+                                <p class='button'>
+                                
+                                    <a class='btn btn-default' href='details.php?pro_id=$pro_id'>
+            
+                                        View Details
+            
+                                    </a>
+                                
+                                    <a class='btn btn-primary' href='details.php?pro_id=$pro_id'>
+            
+                                        <i class='fa fa-shopping-cart'></i> Add to Cart
+            
+                                    </a>
+                                
+                                </p>
+                            
+                            </div>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                    ";
+                       
+                   }
+                   
+                   ?>
+                   
+               </div><!-- #row same-heigh-row Finish -->
                
            </div><!-- col-md-12 Finish -->
            
