@@ -2,7 +2,8 @@
 
 session_start();
 
-$active='Cart';
+$active='Shop';
+
 
 include("includes/db.php");
 include("functions/functions.php");
@@ -10,8 +11,6 @@ include("functions/functions.php");
 ?>
 
 <?php 
-    if(isset($_SESSION['customer_email']))
-    {
     
     $product_id = $_GET['pro_id'];
     
@@ -42,7 +41,6 @@ include("functions/functions.php");
     $row_p_cat = mysqli_fetch_array($run_p_cat);
     
     $p_cat_title = $row_p_cat['p_cat_title'];
-    }
 
 ?>
 
@@ -51,7 +49,8 @@ include("functions/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M-Dev Store</title>
+    <title>Horondi</title>
+    <link rel="icon" href="images/ico.png">
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -133,10 +132,8 @@ include("functions/functions.php");
            <div class="navbar-header"><!-- navbar-header Begin -->
                
                <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
-                   
-                   <img src="images/ecom-store-logo.png" alt="M-dev-Store Logo" class="hidden-xs">
-                   <img src="images/ecom-store-logo-mobile.png" alt="M-dev-Store Logo Mobile" class="visible-xs">
-                   
+                   <img src="images/logo.png" alt="Horondi Logo" class="hidden-xs">
+                   <img src="images/logo-mobile.png" alt="Horondi Logo Mobile" class="visible-xs">
                </a><!-- navbar-brand home Finish -->
                
                <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -477,6 +474,16 @@ include("functions/functions.php");
                </div><!-- #row same-heigh-row Finish -->
                
            </div><!-- col-md-12 Finish -->
+           <div id="disqus_thread"></div>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://http-localhost-horondiecommerceweb.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
            
        </div><!-- container Finish -->
    </div><!-- #content Finish -->
