@@ -57,11 +57,11 @@ include("functions/functions.php");
 </head>
 <body>
    
-   <div id="top"><!-- Top Begin -->
+   <div id="top">
        
-       <div class="container"><!-- container Begin -->
+       <div class="container">
            
-           <div class="col-md-6 offer"><!-- col-md-6 offer Begin -->
+           <div class="col-md-6 offer">
                
                <a href="#" class="btn btn-success btn-sm">
                    
@@ -82,11 +82,11 @@ include("functions/functions.php");
                </a>
                <a href="checkout.php"><?php items(); ?> Items In Your Cart | Total Price: <?php total_price(); ?> </a>
                
-           </div><!-- col-md-6 offer Finish -->
+           </div>
            
-           <div class="col-md-6"><!-- col-md-6 Begin -->
+           <div class="col-md-6">
                
-               <ul class="menu"><!-- cmenu Begin -->
+               <ul class="menu">
                    
                    <li>
                        <a href="customer_register.php">Register</a>
@@ -117,24 +117,24 @@ include("functions/functions.php");
                        </a>
                    </li>
                    
-               </ul><!-- menu Finish -->
+               </ul>
                
-           </div><!-- col-md-6 Finish -->
+           </div>
            
-       </div><!-- container Finish -->
+       </div>
        
-   </div><!-- Top Finish -->
+   </div>
    
-   <div id="navbar" class="navbar navbar-default"><!-- navbar navbar-default Begin -->
+   <div id="navbar" class="navbar navbar-default">
        
-       <div class="container"><!-- container Begin -->
+       <div class="container">
            
-           <div class="navbar-header"><!-- navbar-header Begin -->
+           <div class="navbar-header">
                
-               <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
+               <a href="index.php" class="navbar-brand home">
                    <img src="images/logo.png" alt="Horondi Logo" class="hidden-xs">
                    <img src="images/logo-mobile.png" alt="Horondi Logo Mobile" class="visible-xs">
-               </a><!-- navbar-brand home Finish -->
+               </a>
                
                <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
                    
@@ -152,13 +152,13 @@ include("functions/functions.php");
                    
                </button>
                
-           </div><!-- navbar-header Finish -->
+           </div>
            
-           <div class="navbar-collapse collapse" id="navigation"><!-- navbar-collapse collapse Begin -->
+           <div class="navbar-collapse collapse" id="navigation">
                
-               <div class="padding-nav"><!-- padding-nav Begin -->
+               <div class="padding-nav">
                    
-                   <ul class="nav navbar-nav left"><!-- nav navbar-nav left Begin -->
+                   <ul class="nav navbar-nav left">
                        
                        <li class="<?php if($active=='Home') echo"active"; ?>">
                            <a href="index.php">Home</a>
@@ -190,65 +190,65 @@ include("functions/functions.php");
                            <a href="contact.php">Contact Us</a>
                        </li>
                        
-                   </ul><!-- nav navbar-nav left Finish -->
+                   </ul>
                    
-               </div><!-- padding-nav Finish -->
+               </div>
                
-               <a href="cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
+               <a href="cart.php" class="btn navbar-btn btn-primary right">
                    
                    <i class="fa fa-shopping-cart"></i>
                    
                    <span><?php items(); ?> Items In Your Cart</span>
                    
-               </a><!-- btn navbar-btn btn-primary Finish -->
+               </a>
                
-               <div class="navbar-collapse collapse right"><!-- navbar-collapse collapse right Begin -->
+               <div class="navbar-collapse collapse right">
                    
-                   <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search"><!-- btn btn-primary navbar-btn Begin -->
+                   <button class="btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#search">
                        
                        <span class="sr-only">Toggle Search</span>
                        
                        <i class="fa fa-search"></i>
                        
-                   </button><!-- btn btn-primary navbar-btn Finish -->
+                   </button>
                    
-               </div><!-- navbar-collapse collapse right Finish -->
+               </div>
                
-               <div class="collapse clearfix" id="search"><!-- collapse clearfix Begin -->
+               <div class="collapse clearfix" id="search">
                    
-                   <form method="get" action="results.php" class="navbar-form"><!-- navbar-form Begin -->
+                   <form method="get" action="results.php" class="navbar-form">
                        
-                       <div class="input-group"><!-- input-group Begin -->
+                       <div class="input-group">
                            
                            <input type="text" class="form-control" placeholder="Search" name="user_query" required>
                            
-                           <span class="input-group-btn"><!-- input-group-btn Begin -->
+                           <span class="input-group-btn">
                            
-                           <button type="submit" name="search" value="Search" class="btn btn-primary"><!-- btn btn-primary Begin -->
+                           <button type="submit" name="search" value="Search" class="btn btn-primary">
                                
                                <i class="fa fa-search"></i>
                                
-                           </button><!-- btn btn-primary Finish -->
+                           </button>
                            
-                           </span><!-- input-group-btn Finish -->
+                           </span>
                            
-                       </div><!-- input-group Finish -->
+                       </div>
                        
-                   </form><!-- navbar-form Finish -->
+                   </form>
                    
-               </div><!-- collapse clearfix Finish -->
+               </div>
                
-           </div><!-- navbar-collapse collapse Finish -->
+           </div>
            
-       </div><!-- container Finish -->
+       </div>
        
-   </div><!-- navbar navbar-default Finish -->
+   </div>
    
-   <div id="content"><!-- #content Begin -->
-       <div class="container"><!-- container Begin -->
-           <div class="col-md-12"><!-- col-md-12 Begin -->
+   <div id="content">
+       <div class="container">
+           <div class="col-md-12">
                
-               <ul class="breadcrumb"><!-- breadcrumb Begin -->
+               <ul class="breadcrumb">
                    <li>
                        <a href="index.php">Home</a>
                    </li>
@@ -260,20 +260,20 @@ include("functions/functions.php");
                        <a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"><?php echo $p_cat_title; ?></a>
                    </li>
                    <li> <?php echo $pro_title; ?> </li>
-               </ul><!-- breadcrumb Finish -->
+               </ul>
                
-           </div><!-- col-md-12 Finish -->
+           </div>
            
-           <div class="col-md-12"><!-- col-md-12 Begin -->
-               <div id="productMain" class="row"><!-- row Begin -->
-                   <div class="col-sm-6"><!-- col-sm-6 Begin -->
-                       <div id="mainImage"><!-- #mainImage Begin -->
-                           <div id="myCarousel" class="carousel slide" data-ride="carousel"><!-- carousel slide Begin -->
-                               <ol class="carousel-indicators"><!-- carousel-indicators Begin -->
+           <div class="col-md-12">
+               <div id="productMain" class="row">
+                   <div class="col-sm-6">
+                       <div id="mainImage">
+                           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                               <ol class="carousel-indicators">
                                    <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
                                    <li data-target="#myCarousel" data-slide-to="1"></li>
                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                               </ol><!-- carousel-indicators Finish -->
+                               </ol>
                                
                                <div class="carousel-inner">
                                    <div class="item active">
@@ -287,45 +287,45 @@ include("functions/functions.php");
                                    </div>
                                </div>
                                
-                               <a href="#myCarousel" class="left carousel-control" data-slide="prev"><!-- left carousel-control Begin -->
+                               <a href="#myCarousel" class="left carousel-control" data-slide="prev">
                                    <span class="glyphicon glyphicon-chevron-left"></span>
                                    <span class="sr-only">Previous</span>
                                </a><!-- left carousel-control Finish -->
                                
-                               <a href="#myCarousel" class="right carousel-control" data-slide="next"><!-- right carousel-control Begin -->
+                               <a href="#myCarousel" class="right carousel-control" data-slide="next">
                                    <span class="glyphicon glyphicon-chevron-right"></span>
                                    <span class="sr-only">Next</span>
-                               </a><!-- right carousel-control Finish -->
+                               </a>
                                
-                           </div><!-- carousel slide Finish -->
-                       </div><!-- mainImage Finish -->
+                           </div>
+                       </div>
 
                     
 
-                   </div><!-- col-sm-6 Finish -->
+                   </div>
                    
-                   <div class="col-sm-6"><!-- col-sm-6 Begin -->
-                       <div class="box"><!-- box Begin -->
+                   <div class="col-sm-6">
+                       <div class="box">
                            <h1 class="text-center"> <?php echo $pro_title; ?> </h1>
                            
                            <?php add_cart(); ?>
                            
-                           <form action="details.php?add_cart=<?php echo $product_id; ?>" class="form-horizontal" method="post"><!-- form-horizontal Begin -->
-                               <div class="form-group"><!-- form-group Begin -->
+                           <form action="details.php?add_cart=<?php echo $product_id; ?>" class="form-horizontal" method="post">
+                               <div class="form-group">
                                    <label for="" class="col-md-5 control-label">Products Quantity</label>
                                    
-                                   <div class="col-md-7"><!-- col-md-7 Begin -->
-                                          <select name="product_qty" id="" class="form-control"><!-- select Begin -->
+                                   <div class="col-md-7">
+                                          <select name="product_qty" id="" class="form-control">
                                            <option>1</option>
                                            <option>2</option>
                                            <option>3</option>
                                            <option>4</option>
                                            <option>5</option>
-                                           </select><!-- select Finish -->
+                                           </select>
                                    
-                                    </div><!-- col-md-7 Finish -->
+                                    </div>
                                    
-                               </div><!-- form-group Finish -->
+                               </div>
                                
                                <?php 
                                
@@ -343,38 +343,38 @@ include("functions/functions.php");
                                
                                <p class="text-center buttons"><button class="btn btn-primary i fa fa-shopping-cart"> Add to cart</button></p>
                                
-                           </form><!-- form-horizontal Finish -->
+                           </form>
                            
-                       </div><!-- box Finish -->
+                       </div>
                        
-                       <div class="row" id="thumbs"><!-- row Begin -->
+                       <div class="row" id="thumbs">
                            
-                           <div class="col-xs-4"><!-- col-xs-4 Begin -->
-                               <a data-target="#myCarousel" data-slide-to="0"  href="#" class="thumb"><!-- thumb Begin -->
+                           <div class="col-xs-4">
+                               <a data-target="#myCarousel" data-slide-to="0"  href="#" class="thumb">
                                    <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="product 1" class="img-responsive">
-                               </a><!-- thumb Finish -->
-                           </div><!-- col-xs-4 Finish -->
+                               </a>
+                           </div>
                            
-                           <div class="col-xs-4"><!-- col-xs-4 Begin -->
-                               <a data-target="#myCarousel" data-slide-to="1"  href="#" class="thumb"><!-- thumb Begin -->
+                           <div class="col-xs-4">
+                               <a data-target="#myCarousel" data-slide-to="1"  href="#" class="thumb">
                                    <img src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="product 2" class="img-responsive">
-                               </a><!-- thumb Finish -->
-                           </div><!-- col-xs-4 Finish -->
+                               </a>
+                           </div>
                            
-                           <div class="col-xs-4"><!-- col-xs-4 Begin -->
-                               <a data-target="#myCarousel" data-slide-to="2"  href="#" class="thumb"><!-- thumb Begin -->
+                           <div class="col-xs-4">
+                               <a data-target="#myCarousel" data-slide-to="2"  href="#" class="thumb">
                                    <img src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="product 4" class="img-responsive">
-                               </a><!-- thumb Finish -->
-                           </div><!-- col-xs-4 Finish -->
+                               </a>
+                           </div>
                            
-                       </div><!-- row Finish -->
+                       </div>
                        
-                   </div><!-- col-sm-6 Finish -->
+                   </div>
                    
                    
-               </div><!-- row Finish -->
+               </div>
                
-               <div class="box" id="details"><!-- box Begin -->
+               <div class="box" id="details">
                        
                        <h4>Product Details</h4>
                    
@@ -386,14 +386,14 @@ include("functions/functions.php");
 
                        <hr>
                    
-               </div><!-- box Finish -->
+               </div>
                
-               <div id="row same-heigh-row"><!-- #row same-heigh-row Begin -->
-                   <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Begin -->
-                       <div class="box same-height headline"><!-- box same-height headline Begin -->
+               <div id="row same-heigh-row">
+                   <div class="col-md-3 col-sm-6">
+                       <div class="box same-height headline">
                            <h3 class="text-center">Products You Maybe Like</h3>
-                       </div><!-- box same-height headline Finish -->
-                   </div><!-- col-md-3 col-sm-6 Finish -->
+                       </div>
+                   </div>
                    
                    <?php 
                    
@@ -471,22 +471,22 @@ include("functions/functions.php");
                    
                    ?>
                    
-               </div><!-- #row same-heigh-row Finish -->
+               </div>
                
-           </div><!-- col-md-12 Finish -->
+           </div>
            <div id="disqus_thread"></div>
-<script>
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://http-localhost-horondiecommerceweb.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script>
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://http-localhost-horondiecommerceweb.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+           </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
            
-       </div><!-- container Finish -->
-   </div><!-- #content Finish -->
+       </div>
+   </div>
    
    <?php 
     

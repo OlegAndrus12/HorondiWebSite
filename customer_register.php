@@ -5,68 +5,68 @@
 
 ?>
    
-   <div id="content"><!-- #content Begin -->
-       <div class="container"><!-- container Begin -->
-           <div class="col-md-12"><!-- col-md-12 Begin -->
+   <div id="content">
+       <div class="container">
+           <div class="col-md-12">
                
-               <ul class="breadcrumb"><!-- breadcrumb Begin -->
+               <ul class="breadcrumb">
                    <li>
                        <a href="index.php">Home</a>
                    </li>
                    <li>
                        Register
                    </li>
-               </ul><!-- breadcrumb Finish -->
+               </ul>
                
-           </div><!-- col-md-12 Finish -->
+           </div>
            
-           <div class="col-md-12"><!-- col-md-12 Begin -->
+           <div class="col-md-12">
                
-               <div class="box"><!-- box Begin -->
+               <div class="box">
                    
-                   <div class="box-header"><!-- box-header Begin -->
+                   <div class="box-header">
                        
-                       <center><!-- center Begin -->
+                       <center>
                            
                            <h2> Register a new account </h2>
                            
-                       </center><!-- center Finish -->
+                       </center>
                        
-                       <form action="customer_register.php" method="post" enctype="multipart/form-data"><!-- form Begin -->
+                       <form action="customer_register.php" method="post" enctype="multipart/form-data">
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Your Name</label>
                                
                                <input type="text" class="form-control" name="c_name" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Your Email</label>
                                
                                <input type="text" class="form-control" name="c_email" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Your Password</label>
                                
                                <input type="password" class="form-control" name="c_pass" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Your Profile Picture</label>
                                
                                <input type="file" class="form-control form-height-custom" name="c_image" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="text-center"><!-- text-center Begin -->
+                           <div class="text-center">
                                
                                <button type="submit" name="register" class="btn btn-primary">
                                
@@ -74,18 +74,18 @@
                                
                                </button>
                                
-                           </div><!-- text-center Finish -->
+                           </div>
                            
-                       </form><!-- form Finish -->
+                       </form>
                        
-                   </div><!-- box-header Finish -->
+                   </div>
                    
-               </div><!-- box Finish -->
+               </div>
                
-           </div><!-- col-md-12 Finish -->
+           </div>
            
-       </div><!-- container Finish -->
-   </div><!-- #content Finish -->
+       </div>
+   </div>
    
    <?php 
     

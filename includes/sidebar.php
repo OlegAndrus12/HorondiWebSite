@@ -21,44 +21,44 @@ if(isset($_REQUEST['p_cat'])&&is_array($_REQUEST['p_cat'])){
 // This is for products_categories Finisih //
 
 ?>
-<div class="panel panel-default sidebar-menu"><!-- panel panel-default sidebar-menu Begin -->
-    <div class="panel-heading"><!-- panel-heading Begin -->
+<div class="panel panel-default sidebar-menu">
+    <div class="panel-heading">
         <h3 class="panel-title">
             Product Categories
 
-            <div class="pull-right"><!-- pull-right Begin -->
+            <div class="pull-right">
             
                 <a href="JavaScript:Void(0);" style="color:black;">
                 
-                    <span class="nav-toggle hide-show"><!-- nav-toggle hide-show Begin -->
+                    <span class="nav-toggle hide-show">
                     
                         Hide
                     
-                    </span><!-- nav-toggle hide-show Finish -->
+                    </span>
                 
                 </a>
             
-            </div><!-- pull-right finish -->
+            </div>
 
         </h3>
-    </div><!-- panel-heading Finish -->
+    </div>
 
-    <div class="panel-collapse collapse-data"><!-- panel-collapse collapse-data Begin -->
+    <div class="panel-collapse collapse-data">
     
-        <div class="panel-body"><!-- panel-body 1 Begin -->
-            <div class="input-group"><!-- input-group Begin -->
+        <div class="panel-body">
+            <div class="input-group">
                 <input type="text" class="form-control" id="dev-table-filter" data-filters="#dev-p-cat" data-action="filter" placeholder="Filter Product Categories">
 
-                    <a class="input-group-addon"><!-- input-group-addon Begin -->
+                    <a class="input-group-addon">
                     
                         <i class="fa fa-search"></i>
                         
-                    </a><!-- input-group-addon Finish -->
+                    </a>
 
-            </div><!-- input-group Finish -->
-            </div><!-- panel-body 1 Finish -->
-        <div class="panel-body scroll-menu"><!-- panel-body 2 Begin -->
-            <ul class="nav nav-pills nav-stacked category-menu" id="dev-p-cat"><!-- nav nav-pills nav-stacked category-menu Begin -->
+            </div>
+            </div>
+        <div class="panel-body scroll-menu">
+            <ul class="nav nav-pills nav-stacked category-menu" id="dev-p-cat">
                 
                 <?php 
                 
@@ -110,9 +110,9 @@ if(isset($_REQUEST['p_cat'])&&is_array($_REQUEST['p_cat'])){
                 
                 ?>
                 
-            </ul><!-- nav nav-pills nav-stacked category-menu Finish -->
-        </div><!-- panel-body 2 Finish -->
+            </ul>
+        </div>
 
-    </div><!-- panel-collapse collapse-data Finish -->
+    </div>
     
-</div><!-- panel panel-default sidebar-menu Finish -->
+</div>

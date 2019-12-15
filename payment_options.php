@@ -1,4 +1,4 @@
-<div class="box"><!-- box Begin -->
+<div class="box">
    
    <?php 
     
@@ -16,15 +16,15 @@
     
     <h1 class="text-center">Payment Options For You</h1>  
     
-     <p class="lead text-center"><!-- lead text-center Begin -->
+     <p class="lead text-center">
          
          <a href="order.php?c_id=<?php echo $customer_id ?>"> Offline Payment </a>
          
-     </p><!-- lead text-center Finish -->
+     </p>
      
-     <center><!-- center Begin -->
+     <center>
          
-        <p class="lead"><!-- lead Begin -->
+        <p class="lead">
             
             <a href="#">
                 
@@ -34,8 +34,8 @@
                 
             </a>
             
-        </p> <!-- lead Finish -->
+        </p> 
          
-     </center><!-- center Finish -->
+     </center>
     
-</div><!-- box Finish -->
+</div>

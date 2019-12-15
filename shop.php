@@ -5,22 +5,22 @@
 
 ?>
    
-   <div id="content"><!-- #content Begin -->
-       <div class="container"><!-- container Begin -->
-           <div class="col-md-12"><!-- col-md-12 Begin -->
+   <div id="content">
+       <div class="container">
+           <div class="col-md-12">
                
-               <ul class="breadcrumb"><!-- breadcrumb Begin -->
+               <ul class="breadcrumb">
                    <li>
                        <a href="index.php">Home</a>
                    </li>
                    <li>
                        Shop
                    </li>
-               </ul><!-- breadcrumb Finish -->
+               </ul>
                
-           </div><!-- col-md-12 Finish -->
+           </div>
            
-           <div class="col-md-3"><!-- col-md-3 Begin -->
+           <div class="col-md-3">
    
    <?php 
     
@@ -28,37 +28,37 @@
     
     ?> 
                
-           </div><!-- col-md-3 Finish -->
+           </div>
            
-           <div class="col-md-9"><!-- col-md-9 Begin -->
+           <div class="col-md-9">
 
-                <div class='box'><!-- box Begin -->
+                <div class='box'>
                     <h1>Shop</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo deleniti accusamus, consequuntur illum quasi ut. Voluptate a, ipsam repellendus ut fugiat minima? Id facilis itaque autem, officiis veritatis perferendis, quaerat!
                     </p>
-                </div><!-- box Finish -->
+                </div>
                
-               <div id="products" class="row"><!-- row Begin -->
+               <div id="products" class="row">
 
                     <?php getProducts(); ?>
                
-               </div><!-- row Finish -->
+               </div>
                
                <center>
-                   <ul class="pagination"><!-- pagination Begin -->
+                   <ul class="pagination">
 
                         <?php getPaginator(); ?>
 
-                   </ul><!-- pagination Finish -->
+                   </ul>
                </center>
                
-           </div><!-- col-md-9 Finish -->
+           </div>
 
            <div id="wait" style="position:absolute;top:40%;left:45%;padding: 200px 100px 100px 100px;"></div>
            
-       </div><!-- container Finish -->
-   </div><!-- #content Finish -->
+       </div>
+   </div>
    
    <?php 
     
@@ -72,7 +72,6 @@
     
         $(document).ready(function(){
 
-            // Hide & Show Sidebar Toggle //
 
             $('.nav-toggle').click(function(){
                 
@@ -91,10 +90,6 @@
                 });
 
             });
-
-            // Finish Hide & Show Sidebar Toggle //
-
-            // Search Filters | by Letter // 
 
             $(function(){
 
@@ -139,7 +134,6 @@
 
             });
 
-            // Finish Search Filters | by Letter //
 
         });
     
@@ -149,11 +143,8 @@
     
         $(document).ready(function(){
 
-            // getProducts Function Begin //
 
             function getProducts(){
-
-                // Code For Manufacturers Begin //
 
                 var sPath = '';
                 var aInputs = $('li').find('.get_manufacturer');
@@ -186,10 +177,6 @@
 
                 }
 
-                // Code For Manufacturers Finish //
-
-                // Code For Product Categories Begin //
-
                 var aInputs = Array();
                 var aInputs = $('li').find('.get_p_cat');
                 var aKeys = Array();
@@ -220,10 +207,6 @@
                     }
 
                 }
-
-                // Code For Product Categories Finish //
-
-                // Code For Categories Begin //
 
                 var aInputs = Array();
                 var aInputs = $('li').find('.get_cat');
@@ -256,13 +239,7 @@
 
                 }
 
-                // Code For Categories Finish //
-
-                // Loader When Loading Begin //    
-
                 $('#wait').html('<img src="images/load.gif"');
-
-                // Loader When Loading Finish //  
 
                 $.ajax({
 

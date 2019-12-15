@@ -5,74 +5,74 @@
 
 ?>
   
-   <div id="content"><!-- #content Begin -->
-       <div class="container"><!-- container Begin -->
-           <div class="col-md-12"><!-- col-md-12 Begin -->
+   <div id="content">
+       <div class="container">
+           <div class="col-md-12">
                
-               <ul class="breadcrumb"><!-- breadcrumb Begin -->
+               <ul class="breadcrumb">
                    <li>
                        <a href="index.php">Home</a>
                    </li>
                    <li>
                        Contact Us
                    </li>
-               </ul><!-- breadcrumb Finish -->
+               </ul>
                
-           </div><!-- col-md-12 Finish -->
+           </div>
            
-           <div class="col-md-12"><!-- col-md-9 Begin -->
+           <div class="col-md-12">
                
-               <div class="box"><!-- box Begin -->
+               <div class="box">
                    
-                   <div class="box-header"><!-- box-header Begin -->
+                   <div class="box-header">
                        
-                       <center><!-- center Begin -->
+                       <center>
                            
                            <h2> Feel free to Contact Us</h2>
                            
-                           <p class="text-muted"><!-- text-muted Begin -->
+                           <p class="text-muted">
                                
                                If you have any questions, feel free to contact us. Our Customer Service work <strong>24/7</strong>
                                
-                           </p><!-- text-muted Finish -->
+                           </p>
                            
-                       </center><!-- center Finish -->
+                       </center>
                        
-                       <form action="contact.php" method="post"><!-- form Begin -->
+                       <form action="contact.php" method="post">
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Name</label>
                                
                                <input type="text" class="form-control" name="name" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Email</label>
                                
                                <input type="text" class="form-control" name="email" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Subject</label>
                                
                                <input type="text" class="form-control" name="subject" required>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="form-group"><!-- form-group Begin -->
+                           <div class="form-group">
                                
                                <label>Message</label>
                                
                                <textarea name="message" class="form-control"></textarea>
                                
-                           </div><!-- form-group Finish -->
+                           </div>
                            
-                           <div class="text-center"><!-- text-center Begin -->
+                           <div class="text-center">
                                
                                <button type="submit" name="submit" class="btn btn-primary">
                                
@@ -80,9 +80,9 @@
                                
                                </button>
                                
-                           </div><!-- text-center Finish -->
+                           </div>
                            
-                       </form><!-- form Finish -->
+                       </form>
                        
                        <?php 
                        
@@ -120,14 +120,14 @@
                        
                        ?>
                        
-                   </div><!-- box-header Finish -->
+                   </div>
                    
-               </div><!-- box Finish -->
+               </div>
                
-           </div><!-- col-md-9 Finish -->
+           </div>
            
-       </div><!-- container Finish -->
-   </div><!-- #content Finish -->
+       </div>
+   </div>
    
    <?php 
     
