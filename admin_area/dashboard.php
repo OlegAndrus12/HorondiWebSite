@@ -8,183 +8,183 @@
 
 ?> 
 
-<div class="row"><!-- row no: 1 begin -->
-    <div class="col-lg-12"><!-- col-lg-12 begin -->
+<div class="row">
+    <div class="col-lg-12">
         <h1 class="page-header"> Dashboard </h1>
         
-        <ol class="breadcrumb"><!-- breadcrumb begin -->
-            <li class="active"><!-- active begin -->
+        <ol class="breadcrumb">
+            <li class="active">
             
                 <i class="fa fa-dashboard"></i> Dashboard
             
-            </li><!-- active finish -->
-        </ol><!-- breadcrumb finish -->
+            </li>
+        </ol>
         
-    </div><!-- col-lg-12 finish -->
-</div><!-- row no: 1 finish -->
+    </div>
+</div>
 
-<div class="row"><!-- row no: 2 begin -->
+<div class="row">
    
-    <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 begin -->
-        <div class="panel panel-primary"><!-- panel panel-primary begin -->
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-primary">
             
-            <div class="panel-heading"><!-- panel-heading begin -->
-                <div class="row"><!-- panel-heading row begin -->
-                    <div class="col-xs-3"><!-- col-xs-3 begin -->
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
                        
                         <i class="fa fa-tasks fa-5x"></i>
                         
-                    </div><!-- col-xs-3 finish -->
+                    </div>
                     
-                    <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
+                    <div class="col-xs-9 text-right">
                         <div class="huge"> <?php echo $count_products; ?> </div>
                            
                         <div> Products </div>
                         
-                    </div><!-- col-xs-9 text-right finish -->
+                    </div>
                     
-                </div><!-- panel-heading row finish -->
-            </div><!-- panel-heading finish -->
+                </div>
+            </div>
             
-            <a href="index.php?view_products"><!-- a href begin -->
-                <div class="panel-footer"><!-- panel-footer begin -->
+            <a href="index.php?view_products">
+                <div class="panel-footer">
                    
-                    <span class="pull-left"><!-- pull-left begin -->
+                    <span class="pull-left">
                         View Details 
-                    </span><!-- pull-left finish -->
+                    </span>
                     
-                    <span class="pull-right"><!-- pull-right begin --> 
+                    <span class="pull-right"> 
                         <i class="fa fa-arrow-circle-right"></i> 
-                    </span><!-- pull-right finish --> 
+                    </span> 
                     
                     <div class="clearfix"></div>
                     
-                </div><!-- panel-footer finish -->
-            </a><!-- a href finish -->
+                </div>
+            </a>
             
-        </div><!-- panel panel-primary finish -->
-    </div><!-- col-lg-3 col-md-6 finish -->
+        </div>
+    </div>
    
-    <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 begin -->
-        <div class="panel panel-green"><!-- panel panel-green begin -->
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-green">
             
-            <div class="panel-heading"><!-- panel-heading begin -->
-                <div class="row"><!-- panel-heading row begin -->
-                    <div class="col-xs-3"><!-- col-xs-3 begin -->
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
                        
                         <i class="fa fa-users fa-5x"></i>
                         
-                    </div><!-- col-xs-3 finish -->
+                    </div>
                     
-                    <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
+                    <div class="col-xs-9 text-right">
                         <div class="huge"> <?php echo $count_customers; ?> </div>
                            
                         <div> Customers </div>
                         
-                    </div><!-- col-xs-9 text-right finish -->
+                    </div>
                     
-                </div><!-- panel-heading row finish -->
-            </div><!-- panel-heading finish -->
+                </div>
+            </div>
             
-            <a href="index.php?view_customers"><!-- a href begin -->
-                <div class="panel-footer"><!-- panel-footer begin -->
+            <a href="index.php?view_customers">
+                <div class="panel-footer">
                    
-                    <span class="pull-left"><!-- pull-left begin -->
+                    <span class="pull-left">
                         View Details 
-                    </span><!-- pull-left finish -->
+                    </span>
                     
-                    <span class="pull-right"><!-- pull-right begin --> 
+                    <span class="pull-right"> 
                         <i class="fa fa-arrow-circle-right"></i> 
-                    </span><!-- pull-right finish --> 
+                    </span> 
                     
                     <div class="clearfix"></div>
                     
-                </div><!-- panel-footer finish -->
-            </a><!-- a href finish -->
+                </div>
+            </a>
             
-        </div><!-- panel panel-green finish -->
-    </div><!-- col-lg-3 col-md-6 finish -->
+        </div>
+    </div>
    
-    <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 begin -->
-        <div class="panel panel-orange"><!-- panel panel-yellow begin -->
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-orange">
             
-            <div class="panel-heading"><!-- panel-heading begin -->
-                <div class="row"><!-- panel-heading row begin -->
-                    <div class="col-xs-3"><!-- col-xs-3 begin -->
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
                        
                         <i class="fa fa-tags fa-5x"></i>
                         
-                    </div><!-- col-xs-3 finish -->
+                    </div>
                     
-                    <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
+                    <div class="col-xs-9 text-right">
                         <div class="huge"> <?php echo $count_p_categories; ?> </div>
                            
                         <div> Product Categories </div>
                         
-                    </div><!-- col-xs-9 text-right finish -->
+                    </div>
                     
-                </div><!-- panel-heading row finish -->
-            </div><!-- panel-heading finish -->
+                </div>
+            </div>
             
-            <a href="index.php?view_p_cats"><!-- a href begin -->
-                <div class="panel-footer"><!-- panel-footer begin -->
+            <a href="index.php?view_p_cats">
+                <div class="panel-footer">
                    
-                    <span class="pull-left"><!-- pull-left begin -->
+                    <span class="pull-left">
                         View Details 
-                    </span><!-- pull-left finish -->
+                    </span>
                     
-                    <span class="pull-right"><!-- pull-right begin --> 
+                    <span class="pull-right"> 
                         <i class="fa fa-arrow-circle-right"></i> 
-                    </span><!-- pull-right finish --> 
+                    </span> 
                     
                     <div class="clearfix"></div>
                     
-                </div><!-- panel-footer finish -->
-            </a><!-- a href finish -->
+                </div>
+            </a>
             
-        </div><!-- panel panel-yellow finish -->
-    </div><!-- col-lg-3 col-md-6 finish -->
+        </div>
+    </div>
    
-    <div class="col-lg-3 col-md-6"><!-- col-lg-3 col-md-6 begin -->
-        <div class="panel panel-red"><!-- panel panel-red begin -->
+    <div class="col-lg-3 col-md-6">
+        <div class="panel panel-red">
             
-            <div class="panel-heading"><!-- panel-heading begin -->
-                <div class="row"><!-- panel-heading row begin -->
-                    <div class="col-xs-3"><!-- col-xs-3 begin -->
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
                        
                         <i class="fa fa-shopping-cart fa-5x"></i>
                         
-                    </div><!-- col-xs-3 finish -->
+                    </div>
                     
-                    <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
+                    <div class="col-xs-9 text-right">
                         <div class="huge"> <?php echo $count_pending_orders; ?> </div>
                            
                         <div> Orders </div>
                         
-                    </div><!-- col-xs-9 text-right finish -->
+                    </div>
                     
-                </div><!-- panel-heading row finish -->
-            </div><!-- panel-heading finish -->
+                </div>
+            </div>
             
-            <a href="index.php?view_orders"><!-- a href begin -->
-                <div class="panel-footer"><!-- panel-footer begin -->
+            <a href="index.php?view_orders">
+                <div class="panel-footer">
                    
-                    <span class="pull-left"><!-- pull-left begin -->
+                    <span class="pull-left">
                         View Details 
-                    </span><!-- pull-left finish -->
+                    </span>
                     
-                    <span class="pull-right"><!-- pull-right begin --> 
+                    <span class="pull-right"> 
                         <i class="fa fa-arrow-circle-right"></i> 
-                    </span><!-- pull-right finish --> 
+                    </span> 
                     
                     <div class="clearfix"></div>
                     
-                </div><!-- panel-footer finish -->
-            </a><!-- a href finish -->
+                </div>
+            </a>
             
-        </div><!-- panel panel-red finish -->
-    </div><!-- col-lg-3 col-md-6 finish -->
+        </div>
+    </div>
     
-</div><!-- row no: 2 finish -->
+</div>
 
 <?php } ?>

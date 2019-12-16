@@ -18,22 +18,22 @@
 </head>
 <body>
    
-   <div class="container"><!-- container begin -->
-       <form action="" class="form-login" method="post"><!-- form-login begin -->
+   <div class="container">
+       <form action="" class="form-login" method="post">
            <h2 class="form-login-heading"> Admin Login </h2>
            
            <input type="text" class="form-control" placeholder="Email Address" name="admin_email" required>
            
            <input type="password" class="form-control" placeholder="Your Password" name="admin_pass" required>
            
-           <button type="submit" class="btn btn-lg btn-primary btn-block" name="admin_login"><!-- btn btn-lg btn-primary btn-block begin -->
+           <button type="submit" class="btn btn-lg btn-primary btn-block" name="admin_login">
                
                Login
                
-           </button><!-- btn btn-lg btn-primary btn-block finish -->
+           </button>
            
-       </form><!-- form-login finish -->
-   </div><!-- container finish -->
+       </form>
+   </div>
     
 </body>
 </html>

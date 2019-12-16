@@ -64,12 +64,12 @@
 </head>
 <body>
 
-    <div id="wrapper"><!-- #wrapper begin -->
+    <div id="wrapper">
        
        <?php include("includes/sidebar.php"); ?>
        
-        <div id="page-wrapper"><!-- #page-wrapper begin -->
-            <div class="container-fluid"><!-- container-fluid begin -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
                 
                 <?php
                 
@@ -185,9 +185,9 @@
         
                 ?>
                 
-            </div><!-- container-fluid finish -->
-        </div><!-- #page-wrapper finish -->
-    </div><!-- wrapper finish -->
+            </div>
+        </div>
+    </div>
 
 <script src="js/jquery-331.min.js"></script>     
 <script src="js/bootstrap-337.min.js"></script>       

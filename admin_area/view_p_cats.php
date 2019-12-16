@@ -8,43 +8,43 @@
 
 ?>
 
-<div class="row"><!-- row 1 begin -->
-    <div class="col-lg-12"><!-- col-lg-12 begin -->
-        <ol class="breadcrumb"><!-- breadcrumb begin -->
+<div class="row">
+    <div class="col-lg-12">
+        <ol class="breadcrumb">
             <li>
                 
                 <i class="fa fa-dashboard"></i> Dashboard / View Product Categories
                 
             </li>
-        </ol><!-- breadcrumb finish -->
-    </div><!-- col-lg-12 finish -->
-</div><!-- row 1 finish -->
+        </ol>
+    </div>
+</div>
 
-<div class="row"><!-- row 2 begin -->
-    <div class="col-lg-12"><!-- col-lg-12 begin -->
-        <div class="panel panel-default"><!-- panel panel-default begin -->
-            <div class="panel-heading"><!-- panel-heading begin -->
-                <h3 class="panel-title"><!-- panel-title begin -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
                 
                     <i class="fa fa-tags fa-fw"></i> View Product Categories
                 
-                </h3><!-- panel-title finish -->
-            </div><!-- panel-heading finish -->
+                </h3>
+            </div>
             
-            <div class="panel-body"><!-- panel-body begin -->
-                <div class="table-responsive"><!-- table-responsive begin -->
-                    <table class="table table-hover table-striped table-bordered"><!-- tabel tabel-hover table-striped table-bordered begin -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped table-bordered">
                         
-                        <thead><!-- thead begin -->
-                            <tr><!-- tr begin -->
+                        <thead>
+                            <tr>
                                 <th> Product Category ID </th>
                                 <th> Product Category Title </th>
                                 <th> Edit Product Category </th>
                                 <th> Delete Product Category </th>
-                            </tr><!-- tr finish -->
-                        </thead><!-- thead finish -->
+                            </tr>
+                        </thead>
                         
-                        <tbody><!-- tbody begin -->
+                        <tbody>
                             
                             <?php 
                             
@@ -64,7 +64,7 @@
                             
                             ?>
                             
-                            <tr><!-- tr begin -->
+                            <tr>
                                 <td> <?php echo $i; ?> </td>
                                 <td> <?php echo $p_cat_title; ?> </td>
                                 <td> 
@@ -77,19 +77,19 @@
                                         <i class="fa fa-trash"></i> Delete
                                     </a>
                                 </td>
-                            </tr><!-- tr finish -->
+                            </tr>
                             
                             <?php } ?>
                         
-                        </tbody><!-- tbody finish -->
+                        </tbody>
                         
-                    </table><!-- tabel tabel-hover table-striped table-bordered finish -->
-                </div><!-- table-responsive finish -->
-            </div><!-- panel-body finish -->
+                    </table>
+                </div>
+            </div>
             
-        </div><!-- panel panel-default finish -->
-    </div><!-- col-lg-12 finish -->
-</div><!-- row 2 finish -->
+        </div>
+    </div>
+</div>
 
 
 <?php } ?>

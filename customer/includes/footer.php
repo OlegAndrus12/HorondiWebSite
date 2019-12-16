@@ -1,22 +1,22 @@
-<div id="footer"><!-- #footer Begin -->
-    <div class="container"><!-- container Begin -->
-        <div class="row"><!-- row Begin -->
-            <div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
                
                <h4>Pages</h4>
                 
-                <ul><!-- ul Begin -->
+                <ul>
                     <li><a href="../cart.php">Shopping Cart</a></li>
                     <li><a href="../contact.php">Contact Us</a></li>
                     <li><a href="../shop.php">Shop</a></li>
                     <li><a href="my_account.php">My Account</a></li>
-                </ul><!-- ul Finish -->
+                </ul>
                 
                 <hr>
                 
                 <h4>User Section</h4>
                 
-                <ul><!-- ul Begin -->
+                <ul>
                            
                            <?php 
                            
@@ -49,17 +49,17 @@
                            ?>
                     
                     </li>
-                </ul><!-- ul Finish -->
+                </ul>
                 
                 <hr class="hidden-md hidden-lg hidden-sm">
                 
-            </div><!-- col-sm-6 col-md-3 Finish -->
+            </div>
             
-            <div class="com-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
+            <div class="com-sm-6 col-md-3">
                 
                 <h4>Top Products Categories</h4>
                 
-                <ul><!-- ul Begin -->
+                <ul>
                 
                     <?php 
                     
@@ -91,30 +91,30 @@
                     
                     ?>
                 
-                </ul><!-- ul Finish -->
+                </ul>
                 
                 <hr class="hidden-md hidden-lg">
                 
-            </div><!-- col-sm-6 col-md-3 Finish -->
+            </div>
             
-            <div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
+            <div class="col-sm-6 col-md-3">
                 
                 <h4>Find Us</h4>
                 
-                <p><!-- p Start -->
+                <p>
                     
                     <strong>LNU inc.</strong>
                     <br/>Lviv
                     <br/>Ukraine
                     <br/>andrusoleg123@gmail.com
                     
-                </p><!-- p Finish -->
+                </p>
                 
                 <a href="../contact.php">Check Our Contact Page</a>
                 
                 <hr class="hidden-md hidden-lg">
                 
-            </div><!-- col-sm-6 col-md-3 Finish -->
+            </div>
             
             <div class="col-sm-6 col-md-3">
                 
@@ -124,21 +124,21 @@
                     Dont miss our latest update products.
                 </p>
                 
-                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=M-devMedia', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" method="post"><!-- form begin -->
-                    <div class="input-group"><!-- input-group begin -->
+                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=M-devMedia', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" method="post">
+                    <div class="input-group">
                         
                         <input type="text" class="form-control" name="email">
                         
                         <input type="hidden" value="M-devMedia" name="uri"/><input type="hidden" name="loc" value="en_US"/>
                         
-                        <span class="input-group-btn"><!-- input-group-btn begin -->
+                        <span class="input-group-btn">
                             
                             <input type="submit" value="subscribe" class="btn btn-default">
                             
-                        </span><!-- input-group-btn Finish -->
+                        </span>
                         
-                    </div><!-- input-group Finish -->
-                </form><!-- form Finish -->
+                    </div>
+                </form>
                 
                 <hr>
                 
@@ -153,22 +153,22 @@
                 </p>
                 
             </div>
-        </div><!-- row Finish -->
-    </div><!-- container Finish -->
-</div><!-- #footer Finish -->
+        </div>
+    </div>
+</div>
 
 
-<div id="copyright"><!-- #copyright Begin -->
-    <div class="container"><!-- container Begin -->
-        <div class="col-md-6"><!-- col-md-6 Begin -->
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-6">
             
             <p class="pull-left">&copy; 2018 Horondi Store All Rights Reserve</p>
             
-        </div><!-- col-md-6 Finish -->
-        <div class="col-md-6"><!-- col-md-6 Begin -->
+        </div>
+        <div class="col-md-6">
             
             <p class="pull-right">Theme by: <a href="#">Oleh Andrus</a></p>
             
-        </div><!-- col-md-6 Finish -->
-    </div><!-- container Finish -->
-</div><!-- #copyright Finish -->
+        </div>
+    </div>
+</div>

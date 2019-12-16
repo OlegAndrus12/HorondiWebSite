@@ -1,43 +1,43 @@
 <h1 align="center"> Change Password </h1>
 
 
-<form action="" method="post"><!-- form Begin -->
+<form action="" method="post">
     
-    <div class="form-group"><!-- form-group Begin -->
+    <div class="form-group">
         
         <label> Your Old Password: </label>
         
         <input type="text" name="old_pass" class="form-control" required>
         
-    </div><!-- form-group Finish -->
+    </div>
     
-    <div class="form-group"><!-- form-group Begin -->
+    <div class="form-group">
         
         <label> Your New Password: </label>
         
         <input type="text" name="new_pass" class="form-control" required>
         
-    </div><!-- form-group Finish -->
+    </div>
     
-    <div class="form-group"><!-- form-group Begin -->
+    <div class="form-group">
         
         <label> Confirm Your New Password: </label>
         
         <input type="text" name="new_pass_again" class="form-control" required>
         
-    </div><!-- form-group Finish -->
+    </div>
     
-    <div class="text-center"><!-- text-center Begin -->
+    <div class="text-center">
         
-        <button type="submit" name="submit" class="btn btn-primary"><!-- btn btn-primary Begin -->
+        <button type="submit" name="submit" class="btn btn-primary">
             
             <i class="fa fa-user-md"></i> Update Now
             
-        </button><!-- btn btn-primary inish -->
+        </button>
         
-    </div><!-- text-center Finish -->
+    </div>
     
-</form><!-- form Finish -->
+</form>
 
 
 <?php 

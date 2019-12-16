@@ -20,25 +20,25 @@ $customer_image = $row_customer['customer_image'];
 
 <h1 align="center"> Edit Your Account </h1>
 
-<form action="" method="post" enctype="multipart/form-data"><!-- form Begin -->
+<form action="" method="post" enctype="multipart/form-data">
     
-    <div class="form-group"><!-- form-group Begin -->
+    <div class="form-group">
         
         <label> Costumer Name: </label>
         
         <input type="text" name="c_name" class="form-control" value="<?php echo $customer_name; ?>" required>
         
-    </div><!-- form-group Finish -->
+    </div>
     
-    <div class="form-group"><!-- form-group Begin -->
+    <div class="form-group">
         
         <label> Costumer Email: </label>
         
         <input type="text" name="c_email" class="form-control" value="<?php echo $customer_email; ?>" required>
         
-    </div><!-- form-group Finish -->
+    </div>
         
-    <div class="form-group"><!-- form-group Begin -->
+    <div class="form-group">
         
         <label> Costumer Image: </label>
         
@@ -46,19 +46,19 @@ $customer_image = $row_customer['customer_image'];
         
         <img class="img-responsive" src="customer_images/<?php echo $customer_image; ?>" alt="Costumer Image">
         
-    </div><!-- form-group Finish -->
+    </div>
     
-    <div class="text-center"><!-- text-center Begin -->
+    <div class="text-center">
         
-        <button name="update" class="btn btn-primary"><!-- btn btn-primary Begin -->
+        <button name="update" class="btn btn-primary">
             
             <i class="fa fa-user-md"></i> Update Now
             
-        </button><!-- btn btn-primary inish -->
+        </button>
         
-    </div><!-- text-center Finish -->
+    </div>
     
-</form><!-- form Finish -->
+</form>
 
 <?php 
 

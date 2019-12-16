@@ -1,4 +1,4 @@
-<center><!--  center Begin  -->
+<center>
     
     <h1> My Orders </h1>
     
@@ -10,19 +10,19 @@
         
     </p>
     
-</center><!--  center Finish  -->
+</center>
 
 
 <hr>
 
 
-<div class="table-responsive"><!--  table-responsive Begin  -->
+<div class="table-responsive">
     
-    <table class="table table-bordered table-hover"><!--  table table-bordered table-hover Begin  -->
+    <table class="table table-bordered table-hover">
         
-        <thead><!--  thead Begin  -->
+        <thead>
             
-            <tr><!--  tr Begin  -->
+            <tr>
                 
                 <th> ON: </th>
                 <th> Due Amount: </th>
@@ -32,11 +32,11 @@
                 <th> Paid / Unpaid: </th>
                 <th> Status: </th>
                 
-            </tr><!--  tr Finish  -->
+            </tr>
             
-        </thead><!--  thead Finish  -->
+        </thead>
         
-        <tbody><!--  tbody Begin  -->
+        <tbody>
            
            <?php 
             
@@ -84,7 +84,7 @@
             
             ?>
             
-            <tr><!--  tr Begin  -->
+            <tr>
                 
                 <th> <?php echo $i; ?> </th>
                 <td> $<?php echo $due_amount; ?> </td>
@@ -100,12 +100,12 @@
                     
                 </td>
                 
-            </tr><!--  tr Finish  -->
+            </tr>
             
             <?php } ?>
             
-        </tbody><!--  tbody Finish  -->
+        </tbody>
         
-    </table><!--  table table-bordered table-hover Finish  -->
+    </table>
     
-</div><!--  table-responsive Finish  -->
+</div>
