@@ -10,7 +10,7 @@ from a local test server to a live server possible.
 
 How to install this project to your local maschine:
 1) download XAMPP (link : https://www.apachefriends.org/download.html)
-2)execute xampp/xampp-control
+2) execute xampp/xampp-control
 3) start Apach and MySql services
 4) place your project into xampp/htdocs
 5) open website on your local machine using localhost/projectName
